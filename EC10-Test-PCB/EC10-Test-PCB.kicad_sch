@@ -1,0 +1,8451 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "76387a4d-e1af-41ef-808a-a1b34bc8c3fb")
+	(paper "A2")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small_US"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "r resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_US_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.016)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "_EC10-Test-Board-symbols:SK6812-EC10"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812-EC10"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 20.066 -12.446 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812-EC10_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812-EC10_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812-EC10_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 159.385 67.945) (xy 160.655 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0115b8b6-4bea-430c-afac-a7237748f707")
+	)
+	(wire
+		(pts
+			(xy 283.845 105.41) (xy 283.845 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "051dcf9f-6915-46c4-ada0-7d0ad77aaae2")
+	)
+	(wire
+		(pts
+			(xy 184.785 105.41) (xy 184.785 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052d1520-12da-42c2-9919-e2b86a2fcc1f")
+	)
+	(wire
+		(pts
+			(xy 349.885 58.42) (xy 349.885 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d4716a-d791-44ec-b3ad-8e0c48a4a5c3")
+	)
+	(wire
+		(pts
+			(xy 184.785 88.265) (xy 184.785 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07692189-e879-4ac2-b0e8-c6088b49d86d")
+	)
+	(wire
+		(pts
+			(xy 390.525 67.945) (xy 391.795 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f27285-f18c-4d3b-add7-1a7de47fed7e")
+	)
+	(wire
+		(pts
+			(xy 267.335 75.565) (xy 267.335 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f68998-0bd0-4bef-ba90-9456a0f9266b")
+	)
+	(wire
+		(pts
+			(xy 349.885 75.565) (xy 349.885 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09acba40-8968-4ff4-b0ff-0385b939d7a1")
+	)
+	(wire
+		(pts
+			(xy 465.455 105.41) (xy 465.455 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afff194-68ab-43b3-adb3-0305f49df9fc")
+	)
+	(wire
+		(pts
+			(xy 102.235 105.41) (xy 102.235 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3ba8ac-9792-4f4a-889f-e985f791e43a")
+	)
+	(wire
+		(pts
+			(xy 283.845 75.565) (xy 283.845 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0de39e6f-c769-46f9-8b57-32e4853d9825")
+	)
+	(wire
+		(pts
+			(xy 184.785 58.42) (xy 184.785 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f772e4a-ef8a-46a1-a4a0-bfde10de7266")
+	)
+	(wire
+		(pts
+			(xy 366.395 58.42) (xy 366.395 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13de83fa-7438-4541-ac92-208683dcf1fe")
+	)
+	(wire
+		(pts
+			(xy 466.09 58.42) (xy 466.09 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fb1a92-31a1-4906-ae2c-ed4ec9ab2543")
+	)
+	(wire
+		(pts
+			(xy 267.335 58.42) (xy 267.335 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1720f1c8-f150-4188-9138-dd63c38eb149")
+	)
+	(wire
+		(pts
+			(xy 57.15 77.47) (xy 52.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ea8ec3-d2be-4231-a62e-2dcb7045ac0c")
+	)
+	(wire
+		(pts
+			(xy 399.415 75.565) (xy 399.415 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ecc1c0-acfb-47bb-8750-f10a7bc5ada9")
+	)
+	(wire
+		(pts
+			(xy 217.805 105.41) (xy 217.805 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bac3851-c154-4974-a923-6f6a9f270f4f")
+	)
+	(wire
+		(pts
+			(xy 118.745 75.565) (xy 118.745 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db276b4-f139-4e63-b173-96230193b7b8")
+	)
+	(wire
+		(pts
+			(xy 340.995 67.945) (xy 342.265 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2114f9f0-7cbb-4d34-a2f0-6c1cfe98ab37")
+	)
+	(wire
+		(pts
+			(xy 234.315 105.41) (xy 234.315 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2551e253-e8a7-4955-b793-044d6cc6275d")
+	)
+	(wire
+		(pts
+			(xy 457.2 67.945) (xy 458.47 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259c1c1b-99d6-4231-a9fa-3dafbbf3b0d9")
+	)
+	(wire
+		(pts
+			(xy 423.545 97.79) (xy 424.815 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b22f930-cd9c-4616-a8f2-f75828e1d84b")
+	)
+	(wire
+		(pts
+			(xy 440.055 97.79) (xy 441.325 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1aae27-7f69-40e6-8416-40ec24862f6c")
+	)
+	(wire
+		(pts
+			(xy 490.22 67.945) (xy 491.49 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30758f6d-b093-4af5-8962-539271effe35")
+	)
+	(wire
+		(pts
+			(xy 415.925 75.565) (xy 415.925 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d95b15-814c-4041-a44c-84a40cead0e0")
+	)
+	(wire
+		(pts
+			(xy 168.275 58.42) (xy 168.275 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328ce09d-d712-44d0-8c10-1f99983e56c4")
+	)
+	(wire
+		(pts
+			(xy 448.945 88.265) (xy 448.945 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "355890f9-329e-4bcc-8cbb-d9f2a9847691")
+	)
+	(wire
+		(pts
+			(xy 258.445 67.945) (xy 259.715 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36479c5a-647c-4228-bc7a-8a2fcd4e313f")
+	)
+	(wire
+		(pts
+			(xy 85.725 88.265) (xy 85.725 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36e8585c-a38e-4f88-bb9d-e4a87679dfac")
+	)
+	(wire
+		(pts
+			(xy 151.765 75.565) (xy 151.765 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3764177d-ac90-4aee-bf7e-e7a087b87049")
+	)
+	(wire
+		(pts
+			(xy 433.07 58.42) (xy 433.07 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "387d4904-6735-47b6-972e-210b69c75ef8")
+	)
+	(wire
+		(pts
+			(xy 291.465 97.79) (xy 292.735 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "396e54d7-691c-4a1b-96af-f773a867e2f6")
+	)
+	(wire
+		(pts
+			(xy 432.435 105.41) (xy 432.435 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af21e58-6abb-4f62-bd64-96d25cd9f12d")
+	)
+	(wire
+		(pts
+			(xy 225.425 97.79) (xy 226.695 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce4ad6a-5eb7-48e2-87fe-208348ee3587")
+	)
+	(wire
+		(pts
+			(xy 241.935 97.79) (xy 243.205 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e657cf1-975a-41c4-ba71-de82b32a74b5")
+	)
+	(wire
+		(pts
+			(xy 102.235 58.42) (xy 102.235 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f7a97b-cc96-476d-96b5-7a729f8fd111")
+	)
+	(wire
+		(pts
+			(xy 201.295 88.265) (xy 201.295 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41fab54d-fffb-4eee-8c43-dbba65d87652")
+	)
+	(wire
+		(pts
+			(xy 250.825 58.42) (xy 250.825 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "437ffcec-b898-47d8-bc24-4240de2fa759")
+	)
+	(wire
+		(pts
+			(xy 217.805 75.565) (xy 217.805 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44818cf1-88fd-486b-8156-35d71f070752")
+	)
+	(wire
+		(pts
+			(xy 374.015 97.79) (xy 375.285 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c94d12-7495-4ea7-8de3-60f941076eda")
+	)
+	(wire
+		(pts
+			(xy 449.58 75.565) (xy 449.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47ec833e-5abf-4a1c-83ab-3e4c9bc8d8e8")
+	)
+	(wire
+		(pts
+			(xy 175.895 67.945) (xy 177.165 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4828b84f-4567-4490-99d4-99df2195a203")
+	)
+	(wire
+		(pts
+			(xy 489.585 97.79) (xy 496.57 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48297815-8af3-4636-b805-115ee8378012")
+	)
+	(wire
+		(pts
+			(xy 43.18 67.945) (xy 78.105 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "484fef7c-c505-40d2-be8a-ce2abb6e4782")
+	)
+	(wire
+		(pts
+			(xy 274.955 97.79) (xy 276.225 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48efebb8-4d8a-4fd2-b27e-b54029d939b5")
+	)
+	(wire
+		(pts
+			(xy 491.49 81.915) (xy 491.49 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49128966-6529-4082-9204-fea3a3b18632")
+	)
+	(wire
+		(pts
+			(xy 118.745 105.41) (xy 118.745 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a817020-8274-4a11-85f2-df8bb8019579")
+	)
+	(wire
+		(pts
+			(xy 300.355 105.41) (xy 300.355 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b2a0884-6346-4623-813a-ed579ffbd87e")
+	)
+	(wire
+		(pts
+			(xy 390.525 97.79) (xy 391.795 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5172fa10-1014-4f21-aff3-e9a83de2a5fa")
+	)
+	(wire
+		(pts
+			(xy 118.745 88.265) (xy 118.745 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f780ca-98cf-44d1-8596-4376d2344f0b")
+	)
+	(wire
+		(pts
+			(xy 473.075 97.79) (xy 474.345 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b069a9-a55b-4fe5-a5ce-ac40ceb0ba5e")
+	)
+	(wire
+		(pts
+			(xy 382.905 105.41) (xy 382.905 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56cbc2f3-c547-4f88-82e3-26574eb44d69")
+	)
+	(wire
+		(pts
+			(xy 316.865 105.41) (xy 316.865 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "576eb9ca-dda7-4f20-9afb-7f2dfff4834f")
+	)
+	(wire
+		(pts
+			(xy 415.925 88.265) (xy 415.925 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57faf38d-a3dd-4cba-9299-7f9206d68aed")
+	)
+	(wire
+		(pts
+			(xy 357.505 97.79) (xy 358.775 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a079efc-f833-4673-bc61-21fb67c92c8e")
+	)
+	(wire
+		(pts
+			(xy 307.975 97.79) (xy 309.245 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf11454-6aae-4bdc-be78-07a0c59900db")
+	)
+	(wire
+		(pts
+			(xy 283.845 88.265) (xy 283.845 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e163a81-a4cc-45b8-9451-02897b775496")
+	)
+	(wire
+		(pts
+			(xy 510.54 76.2) (xy 513.715 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61c37564-5032-47de-8ce4-8937286ebb6e")
+	)
+	(wire
+		(pts
+			(xy 250.825 75.565) (xy 250.825 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641fb50a-23db-481c-a174-4c972b2a4350")
+	)
+	(wire
+		(pts
+			(xy 217.805 88.265) (xy 217.805 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fd6cee-7e28-4ff9-a02b-a73689edc110")
+	)
+	(wire
+		(pts
+			(xy 234.315 75.565) (xy 234.315 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68390ad0-88ea-4473-9b17-fc389801e952")
+	)
+	(wire
+		(pts
+			(xy 316.865 88.265) (xy 316.865 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69b4b65a-02d6-4207-b653-977bbc144eb4")
+	)
+	(wire
+		(pts
+			(xy 349.885 88.265) (xy 349.885 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2fc88e-0c0c-4fc4-ad77-36aaa7449b44")
+	)
+	(wire
+		(pts
+			(xy 168.275 75.565) (xy 168.275 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b33c39a-8e86-48bc-9327-dc15600e02b6")
+	)
+	(wire
+		(pts
+			(xy 53.975 80.01) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b76c65b-df64-4bf1-9ae5-787e29e97a16")
+	)
+	(wire
+		(pts
+			(xy 307.975 67.945) (xy 309.245 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8ec739-8c9d-40d2-b717-70e0a70576d7")
+	)
+	(wire
+		(pts
+			(xy 267.335 105.41) (xy 267.335 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eb5bb77-a80d-469c-a6a2-fb8ecc62fab7")
+	)
+	(wire
+		(pts
+			(xy 135.255 88.265) (xy 135.255 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff15dd9-ca0c-44b3-8471-c158a6e7dbd4")
+	)
+	(wire
+		(pts
+			(xy 333.375 88.265) (xy 333.375 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718a4ca7-e74a-4b4e-a667-f4c68e14af91")
+	)
+	(wire
+		(pts
+			(xy 482.6 75.565) (xy 482.6 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7240e8cb-9642-42c7-b438-3f83dcae4766")
+	)
+	(wire
+		(pts
+			(xy 349.885 105.41) (xy 349.885 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b614e5-025a-464d-b1bc-526be4e20a22")
+	)
+	(wire
+		(pts
+			(xy 135.255 75.565) (xy 135.255 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749e5f3f-0a8d-4a4e-a937-8e7313500c1e")
+	)
+	(wire
+		(pts
+			(xy 449.58 58.42) (xy 449.58 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "767b6cc0-4ae8-4a18-88bb-c3c5a92e65b6")
+	)
+	(wire
+		(pts
+			(xy 399.415 88.265) (xy 399.415 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79216bd2-0025-4e13-8d87-cf68e9c8528a")
+	)
+	(wire
+		(pts
+			(xy 466.09 75.565) (xy 466.09 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d051627-e9b1-42e1-968e-46b1227a983c")
+	)
+	(wire
+		(pts
+			(xy 102.235 88.265) (xy 102.235 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f4e4854-dfea-4d81-bd0f-9489a46074c5")
+	)
+	(wire
+		(pts
+			(xy 241.935 67.945) (xy 243.205 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8063a211-70c8-4fb7-9a26-94bd0a1d076a")
+	)
+	(wire
+		(pts
+			(xy 46.99 77.47) (xy 43.18 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8269c379-6d39-47eb-a466-ab2d9bbb506a")
+	)
+	(wire
+		(pts
+			(xy 324.485 67.945) (xy 325.755 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a83ab7-eec3-4161-b2ef-c54eb628dfd4")
+	)
+	(wire
+		(pts
+			(xy 53.975 74.93) (xy 57.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86af4715-8cde-4c98-a9c6-ae1a7bfe77c5")
+	)
+	(wire
+		(pts
+			(xy 85.725 58.42) (xy 85.725 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879bcd37-20f8-4b78-a5ea-c0e66b48aa4d")
+	)
+	(wire
+		(pts
+			(xy 93.345 97.79) (xy 94.615 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d2274dd-9d9d-4cc9-9930-9b3947111dfc")
+	)
+	(wire
+		(pts
+			(xy 316.865 58.42) (xy 316.865 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9efe88-d9ab-49f9-816a-6ebfdb699872")
+	)
+	(wire
+		(pts
+			(xy 102.235 75.565) (xy 102.235 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e3879ad-cdf1-4c82-96bc-3de2706ad579")
+	)
+	(wire
+		(pts
+			(xy 423.545 67.945) (xy 425.45 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90182f36-3ae1-4f6c-b2ca-b8e1db612760")
+	)
+	(wire
+		(pts
+			(xy 456.565 97.79) (xy 457.835 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "969d84bf-5fe0-4585-97c1-527a7edebf38")
+	)
+	(wire
+		(pts
+			(xy 250.825 105.41) (xy 250.825 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a98af9-23fd-4147-b249-521f95c51b63")
+	)
+	(wire
+		(pts
+			(xy 473.71 67.945) (xy 474.98 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ccaf74-ae2a-4214-92fe-7c3f95ddc8e3")
+	)
+	(wire
+		(pts
+			(xy 496.57 97.79) (xy 496.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d91b9e-9d10-483a-a10a-3ed83aa26d50")
+	)
+	(wire
+		(pts
+			(xy 151.765 88.265) (xy 151.765 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9895d759-f3cc-45b3-a9fb-53e45726c6f7")
+	)
+	(wire
+		(pts
+			(xy 208.915 67.945) (xy 210.185 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98b1f716-7565-4977-90f0-2c54b266fe05")
+	)
+	(wire
+		(pts
+			(xy 291.465 67.945) (xy 292.735 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af527e0-eaae-4cea-9833-bc3b747ad489")
+	)
+	(wire
+		(pts
+			(xy 324.485 97.79) (xy 325.755 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e34e34b-8741-452b-9fb1-bad50cdc95c4")
+	)
+	(wire
+		(pts
+			(xy 151.765 58.42) (xy 151.765 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a00ee9b6-df6c-4c71-993f-ebab3695ae85")
+	)
+	(wire
+		(pts
+			(xy 415.925 58.42) (xy 415.925 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a04b5518-f157-4b32-8253-37630f5a9300")
+	)
+	(wire
+		(pts
+			(xy 168.275 105.41) (xy 168.275 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15a8e7c-7bd1-4ec9-aabf-12ad181ae7a6")
+	)
+	(wire
+		(pts
+			(xy 85.725 75.565) (xy 85.725 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4873a9e-28f5-45e7-9417-0210cecf8545")
+	)
+	(wire
+		(pts
+			(xy 142.875 97.79) (xy 144.145 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65dee5d-68c7-4ebf-8339-9d3d19deb3fe")
+	)
+	(wire
+		(pts
+			(xy 43.18 77.47) (xy 43.18 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7612737-f1a2-4b7c-8199-a3544e7cd875")
+	)
+	(wire
+		(pts
+			(xy 481.965 105.41) (xy 481.965 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93d9037-3a95-477e-9f03-828d14220225")
+	)
+	(wire
+		(pts
+			(xy 201.295 58.42) (xy 201.295 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9bd50ae-6dc5-427b-8e43-8b0b3b5a5dd7")
+	)
+	(wire
+		(pts
+			(xy 482.6 58.42) (xy 482.6 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa74fbdf-5a22-4e1a-9f2d-6ee0650f92a7")
+	)
+	(wire
+		(pts
+			(xy 201.295 105.41) (xy 201.295 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa767b8d-53f0-46ca-b753-85f70d0f0842")
+	)
+	(wire
+		(pts
+			(xy 159.385 97.79) (xy 160.655 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3149055-cde9-4061-99fe-9c98e61dbe49")
+	)
+	(wire
+		(pts
+			(xy 126.365 97.79) (xy 127.635 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c90901-f35e-40ce-9410-f410d8925da9")
+	)
+	(wire
+		(pts
+			(xy 340.995 97.79) (xy 342.265 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3c9a926-9d4e-4e59-aa1f-f643561332b8")
+	)
+	(wire
+		(pts
+			(xy 283.845 58.42) (xy 283.845 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5839f87-1f64-444a-8194-9e08d72434ed")
+	)
+	(wire
+		(pts
+			(xy 399.415 58.42) (xy 399.415 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64d9d3e-9716-4780-ab19-e859a563707e")
+	)
+	(wire
+		(pts
+			(xy 366.395 105.41) (xy 366.395 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73a213a-40c6-4b6d-83e8-126805065e0a")
+	)
+	(wire
+		(pts
+			(xy 366.395 88.265) (xy 366.395 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b89fb608-4d7e-436d-90cf-95ad1c9d80bb")
+	)
+	(wire
+		(pts
+			(xy 192.405 67.945) (xy 193.675 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb899b8-cb8e-4e38-ada3-567e4cf2e672")
+	)
+	(wire
+		(pts
+			(xy 135.255 105.41) (xy 135.255 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd95b97c-fa1d-41d1-b79e-82065850af74")
+	)
+	(wire
+		(pts
+			(xy 382.905 88.265) (xy 382.905 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be65ff8c-cf97-44a4-833b-5a3195f5bffd")
+	)
+	(wire
+		(pts
+			(xy 448.945 105.41) (xy 448.945 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e8ecd6-261d-4d2a-8b9e-02b6baeb5981")
+	)
+	(wire
+		(pts
+			(xy 432.435 88.265) (xy 432.435 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0f35d7b-966e-44a6-9f43-a3f34bc5091f")
+	)
+	(wire
+		(pts
+			(xy 135.255 58.42) (xy 135.255 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1211162-c030-4edb-b750-4a102fa3fa92")
+	)
+	(wire
+		(pts
+			(xy 300.355 75.565) (xy 300.355 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f6b58a-7bb9-447d-aab1-2880d5979e8a")
+	)
+	(wire
+		(pts
+			(xy 382.905 75.565) (xy 382.905 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41debf9-eaf8-4a92-a9cb-5633b6dd9ae6")
+	)
+	(wire
+		(pts
+			(xy 333.375 58.42) (xy 333.375 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4671889-0b05-40c3-84ea-f83a14f79acf")
+	)
+	(wire
+		(pts
+			(xy 267.335 88.265) (xy 267.335 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c54a3f7f-b494-40e1-8060-da4f9492feed")
+	)
+	(wire
+		(pts
+			(xy 258.445 97.79) (xy 259.715 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6031617-0e98-4eaa-a77c-4cb0d77164c1")
+	)
+	(wire
+		(pts
+			(xy 399.415 105.41) (xy 399.415 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c672172d-a7da-4852-900a-2fc8723596de")
+	)
+	(wire
+		(pts
+			(xy 300.355 58.42) (xy 300.355 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7ee4719-85b9-4ce5-a74d-9796754cf642")
+	)
+	(wire
+		(pts
+			(xy 201.295 75.565) (xy 201.295 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fbeef2-ebbf-49d3-b952-53494ab6a291")
+	)
+	(wire
+		(pts
+			(xy 415.925 105.41) (xy 415.925 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caaf204f-97d4-4b2c-84bd-dc20d1188b6c")
+	)
+	(wire
+		(pts
+			(xy 142.875 67.945) (xy 144.145 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdb1149a-ac9e-42aa-b568-db59ac844d36")
+	)
+	(wire
+		(pts
+			(xy 184.785 75.565) (xy 184.785 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0f9d896-42b2-45dc-967e-670866b375f9")
+	)
+	(wire
+		(pts
+			(xy 234.315 58.42) (xy 234.315 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2840735-31b1-4fc8-b4e9-5f3e34862be6")
+	)
+	(wire
+		(pts
+			(xy 175.895 97.79) (xy 177.165 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3b5da6c-7cfd-4fa0-bea9-36be52ac3486")
+	)
+	(wire
+		(pts
+			(xy 118.745 58.42) (xy 118.745 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e8f949-9d48-48d2-abfe-1402fa639a33")
+	)
+	(wire
+		(pts
+			(xy 407.035 97.79) (xy 408.305 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d53e4482-39f7-4127-9ba6-fb11fc9a16fa")
+	)
+	(wire
+		(pts
+			(xy 407.035 67.945) (xy 408.305 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d62d19e1-ca90-4c11-871a-65f8a5bd3d2f")
+	)
+	(wire
+		(pts
+			(xy 510.54 81.28) (xy 513.715 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9bf2906-dd40-4163-a3be-16f6ef234937")
+	)
+	(wire
+		(pts
+			(xy 168.275 88.265) (xy 168.275 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db96bf2f-f61b-48de-bd45-250219733fc0")
+	)
+	(wire
+		(pts
+			(xy 109.855 67.945) (xy 111.125 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbddca01-4a42-46e7-b271-f529766e044e")
+	)
+	(wire
+		(pts
+			(xy 225.425 67.945) (xy 226.695 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddca549e-dccc-4124-9964-713da4780e86")
+	)
+	(wire
+		(pts
+			(xy 465.455 88.265) (xy 465.455 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa9b9dc-4c18-4c04-9f5d-3b24174f0ac0")
+	)
+	(wire
+		(pts
+			(xy 250.825 88.265) (xy 250.825 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09424fe-4755-4aac-a4d4-41f580fa5158")
+	)
+	(wire
+		(pts
+			(xy 374.015 67.945) (xy 375.285 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e300e7a5-9522-4de3-b8d3-ab9157308583")
+	)
+	(wire
+		(pts
+			(xy 78.105 97.79) (xy 78.105 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32600c4-5ea3-499b-b388-aaa9216efc5b")
+	)
+	(wire
+		(pts
+			(xy 126.365 67.945) (xy 127.635 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e437877e-a112-4138-9654-28bd16777c3f")
+	)
+	(wire
+		(pts
+			(xy 300.355 88.265) (xy 300.355 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51bef77-6701-4bbc-a010-f414c622ed8f")
+	)
+	(wire
+		(pts
+			(xy 109.855 97.79) (xy 111.125 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5651a8a-8830-41f5-a808-e34486f736b6")
+	)
+	(wire
+		(pts
+			(xy 93.345 67.945) (xy 94.615 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c290ea-6806-480f-9e28-0807ac216cfa")
+	)
+	(wire
+		(pts
+			(xy 217.805 58.42) (xy 217.805 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e800240c-6171-44e5-9579-e0f08795903e")
+	)
+	(wire
+		(pts
+			(xy 85.725 105.41) (xy 85.725 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c94335-8e99-4838-815e-4e3a73609df5")
+	)
+	(wire
+		(pts
+			(xy 208.915 97.79) (xy 210.185 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8fd2a90-f4a8-46c3-b32a-345ca52de88e")
+	)
+	(wire
+		(pts
+			(xy 496.57 78.74) (xy 513.715 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea7fa312-9c57-4321-8d77-73afa3169cfd")
+	)
+	(wire
+		(pts
+			(xy 366.395 75.565) (xy 366.395 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaca4f2d-4699-43eb-b698-bacf019a47c1")
+	)
+	(wire
+		(pts
+			(xy 274.955 67.945) (xy 276.225 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03e0d41-b95d-4664-a3e2-975fdfa1bb3d")
+	)
+	(wire
+		(pts
+			(xy 433.07 75.565) (xy 433.07 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17d8d32-4ee4-4cfb-a430-7a26dc62304c")
+	)
+	(wire
+		(pts
+			(xy 234.315 88.265) (xy 234.315 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f316f2e2-0001-43cc-aad0-6c8621560aea")
+	)
+	(wire
+		(pts
+			(xy 151.765 105.41) (xy 151.765 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cd5205-23ac-4ad3-91b5-de7a00ad5ff5")
+	)
+	(wire
+		(pts
+			(xy 440.69 67.945) (xy 441.96 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d3df5b-a10a-4e43-9e3e-a992d4836c17")
+	)
+	(wire
+		(pts
+			(xy 333.375 75.565) (xy 333.375 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f408f420-7296-429e-835d-b0d8007b5e66")
+	)
+	(wire
+		(pts
+			(xy 357.505 67.945) (xy 358.775 67.945)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6fe39ca-16c5-4e15-afb7-b33af3e3225f")
+	)
+	(wire
+		(pts
+			(xy 481.965 88.265) (xy 481.965 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f82772a7-1585-435b-ba61-cadae0dc59ea")
+	)
+	(wire
+		(pts
+			(xy 78.105 81.915) (xy 491.49 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a3fd66-3ac8-44a6-b6c5-b2d82207d411")
+	)
+	(wire
+		(pts
+			(xy 382.905 58.42) (xy 382.905 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d78ad0-cd5f-43db-98e9-b7ba26ced306")
+	)
+	(wire
+		(pts
+			(xy 333.375 105.41) (xy 333.375 107.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa774fe0-1b75-45c5-8148-400af5945f6c")
+	)
+	(wire
+		(pts
+			(xy 192.405 97.79) (xy 193.675 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac2f2dc-13e5-48b7-9486-f9a51c8f1708")
+	)
+	(wire
+		(pts
+			(xy 316.865 75.565) (xy 316.865 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fed89b57-6c4e-464a-8127-af75e42c6329")
+	)
+	(global_label "GND"
+		(shape input)
+		(at 316.865 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00316254-7d4e-47d9-a242-ac9b8a375cd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.0093 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 135.255 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0286d7a9-5fb5-46b1-b3f0-d7d7e5f7ee1c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.3993 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 118.745 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05896036-b7a5-49da-9668-0cbac2d2d9ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.8893 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 333.375 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0770340d-c2d7-4d90-ab27-587e3e9d2264")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.4912 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 53.975 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12b2729b-93ec-44ab-b3ea-d15c61045aec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 46.0912 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 184.785 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "18218389-a752-45ed-8497-d522d9f7b53f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.9293 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 466.09 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "19724a0d-d6ea-4f51-ad38-e4f3e63d1bb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 459.2343 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 433.07 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c180039-8180-4d96-8509-fb540a98d03d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 426.2143 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 399.415 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1ec8b276-8759-46b8-9e18-20462b9af25f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.5312 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 168.275 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fec0349-944e-4673-91e9-fd8f54d1aa5b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.3912 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 201.295 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2198dd9d-262c-4562-af29-fbdacb5176a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4112 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 382.905 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25446895-8015-4fad-a480-d7f6475bad54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 376.0493 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 382.905 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2580c017-469c-40fc-9a08-5c3acf53ea04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.0212 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 300.355 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "283d45a7-0060-47f1-9e8e-cbd49b267e47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.4993 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 448.945 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2aba3937-3659-4d1d-932b-b63558b53391")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 441.0612 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 465.455 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30bf363c-ba3f-4bc0-bad6-47db91e4affc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.5993 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 349.885 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33737f7d-447f-49be-a719-88899375cc83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 343.0293 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 399.415 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38d06f0c-0993-45cc-b159-a5a1e517800a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 391.5312 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 250.825 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3db87a05-9b00-4640-b0f9-d152ece49049")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.9693 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 316.865 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e854a70-96af-4a44-b8e9-1dfd9c13db1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.9812 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 316.865 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40b00a2d-1889-4f16-8de6-657fc718b965")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.9812 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 283.845 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40dd278c-3779-44e4-adf2-082b349f2111")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9893 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 85.725 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "438fd4cf-e265-44a4-b197-180d9952d8ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.8412 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 349.885 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "474ee012-3425-434d-a7a5-5fa5c2094102")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 343.0293 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 267.335 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48843497-cb8b-470a-aafc-9af8a0c2855a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.4512 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 399.415 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "489d6ce1-6b1a-4ecf-a6ba-73566b241943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 392.5593 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 382.905 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49f26e06-27e7-4df3-9512-69079e048956")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 375.0212 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 267.335 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4a368c61-f90a-4fe0-b896-c779f6b82780")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.4793 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 333.375 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b1d518c-0c4a-469c-848e-8d84190f3574")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.5193 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 333.375 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4ccb973c-3dbf-4bb1-a687-2abd5ad62799")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 325.4912 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 250.825 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50a2b01a-f99c-4957-b9d0-781ea04346c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.9412 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 234.315 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "533d7e35-7750-424c-b8fa-73739f5bdee3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.4593 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 135.255 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "536f605a-f5ad-4c62-bc0a-cd67e7818e71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.3993 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 118.745 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54873e18-3588-4150-bac7-6eb2b553efbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8612 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 316.865 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "565d8ec6-c8dc-4549-82f8-31a744dfb82b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.0093 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 102.235 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57244099-f352-4f0b-8e9a-e446d171764e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.3793 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 466.09 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57a5b35b-645b-48a7-9936-50543b7ab35f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 458.2062 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 300.355 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dc4fb56-16a0-4392-9394-d3c6f78f0a12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.4712 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 234.315 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fd0ca37-9c90-4137-9aa7-4758ea055bb4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.4312 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 482.6 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6425e4b1-77b3-4269-a30a-1a6269a59393")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 474.7162 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 382.905 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67620161-212f-4842-87d6-d8dc554efc6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 376.0493 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 85.725 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "690fabbf-66c4-46d8-b912-247f26c67043")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.8412 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 217.805 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "692f0d03-29f1-46f7-9259-7698d5cec45a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9212 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 449.58 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "755bdead-a8ff-4f74-9a1a-1d815e392347")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 442.7243 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 349.885 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77265793-fe81-4634-b3e2-247bbae89038")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.0012 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 482.6 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "84347c94-7777-4215-b2af-01128f3b28d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 475.7443 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 465.455 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8524c34f-3cb8-4cec-9ee0-86025c6ad209")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 457.5712 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 366.395 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85c66684-da51-4284-9832-c1db4087c959")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.5112 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 300.355 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "85cc5d76-b65d-49e5-88c6-3af310632d8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 293.4993 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 53.975 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86f87bd8-5cb4-4fba-b79f-c1137b3027ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 47.1193 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 217.805 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "889fcc0e-ba9c-44cd-8a29-8e2ef9847180")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9212 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 168.275 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "894a79e4-fd4b-473a-b008-a403623f4c9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.3912 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 102.235 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9329c3c2-2a95-4721-99bf-5ede90c1613a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3512 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 201.295 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94aeab00-ce0e-45c3-99c9-20727bdad2c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.4112 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 234.315 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95729520-c206-4099-bdba-b28cdc2f3352")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.4593 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 481.965 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9630c57c-456c-4400-a53c-83f033e065b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 475.1093 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 366.395 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e31be4b-b752-455e-b7c9-048be0d672f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.5393 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 102.235 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f88cfec-b229-44b1-928d-ed8cedecfcc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.3793 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 510.54 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0ef5e25-902f-4fbf-ba72-a73df7d572ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 502.6562 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 333.375 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1c2cbf9-fb88-4180-831c-e110b1a67eac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 326.5193 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 234.315 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a961aa77-6786-4442-a398-e60edc39bea8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 226.4312 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 433.07 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a9e5b970-1174-4e6a-b6ae-7b7528df56d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 425.1862 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 184.785 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab65b2f0-2604-45da-be37-9e857ae040bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.9012 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 432.435 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac691323-3b71-4b2f-813a-e925f2b34a2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 425.5793 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 151.765 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad73cc9f-decf-46be-a591-5d669361f560")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.8812 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 432.435 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b58b212c-83f7-46d5-b0e2-6c44f2346d92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 424.5512 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 168.275 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b74270f9-1b5f-4793-ad97-03d9499365b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.4193 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 399.415 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b77eea84-821a-44a0-a538-ccf15e821c81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 392.5593 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 283.845 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b7a6e41f-50b7-4ff6-bfe5-6a95f21f1f87")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.9893 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 415.925 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b8e15918-a34c-4f78-977c-a7baf0434fab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 408.0412 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 118.745 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ba5ba858-37c1-495f-8327-c9fcc79b5c1a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.8893 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 85.725 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c068fcf4-7862-476f-81e6-bd01dcf9d3ff")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.8693 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 201.295 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3c2241d-03a1-4560-ae8e-ad1d93b30e0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.4393 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 366.395 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c88e351c-325d-4760-b0d6-1a227b70f56d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 358.5112 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 85.725 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8c0f472-bf6a-403e-9323-0e30d01de5eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.8693 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 135.255 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc1a1dea-9503-4fb8-a84f-2539be3328a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3712 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 135.255 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc3d8c16-4fd5-4606-8211-b2622c21477f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.3712 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 349.885 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd6d80ab-d7cf-40d6-831d-742349fc97aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.0012 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 151.765 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdc3ade0-9099-4ff0-aa5d-63b817a04fc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9093 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 250.825 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d15a7089-8d1b-4728-9c8f-53018f723457")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.9693 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 449.58 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6da501a-953b-4580-97cd-3cf1437e3508")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 441.6962 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 267.335 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7d8b85b-c8a0-409e-a11c-de39fd4e9772")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 260.4793 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 415.925 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e0a55b85-c913-4c2b-8c6f-9bad01bae38e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 409.0693 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 448.945 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e1a9b07d-0a04-47b7-8501-4e7eab3b3388")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 442.0893 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 151.765 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e22d597a-a1ae-49a2-b7ce-e9973b0b1beb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.9093 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 217.805 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e26f2426-461b-4a1a-af52-1a5e8348de5e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.9493 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 217.805 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7382f19-3b47-4256-a85a-939989d0bdf3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.9493 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 510.54 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7b86307-8964-4235-80b7-ed4030f66292")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 503.6843 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 184.785 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7fcf36a-850b-4e40-a765-c833ef59787d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.9012 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 283.845 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e8367f30-60cc-43aa-93e1-b4f30692d261")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.9612 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 415.925 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec9f3a42-f3bb-4f1e-85c8-c899e32e7666")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 408.0412 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 300.355 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eebcdfe9-79bf-4fb6-82e0-f09babd643b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 292.4712 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 250.825 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eecbb01d-83d9-4fac-8689-0383cbfd35b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.9412 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 168.275 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "efe2e698-e0b6-4977-ab28-b6f0366465e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.4193 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 184.785 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f17fcdb7-719b-4f9c-83ce-bd17027d6539")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.9293 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 201.295 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3a01e1c-7b56-44ce-8b3c-7212e08c744c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.4393 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 151.765 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4434363-7651-424e-924b-562eaa0aeaf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.8812 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 283.845 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f69a2f2c-4787-4409-a9c7-07b499b63c51")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.9612 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 481.965 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f743002a-4877-4e59-9092-a567259ef32e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 474.0812 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 118.745 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7713e88-3049-45d0-8617-f328c2375654")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 110.8612 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 102.235 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8f82183-eca6-4993-b00c-fc5c91fe9a9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3512 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+Vdc"
+		(shape input)
+		(at 267.335 88.265 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc264ca5-2eea-4621-bbce-d429c6b0b3ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.4512 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 366.395 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd598c0b-a546-4989-8f87-e0514657e042")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 359.5393 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 415.925 107.315 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff790b76-4ee8-4b58-a487-3e09c4c40de6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 409.0693 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 382.905 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02c8babc-b6a6-4a1e-97df-b30a8867b49f")
+		(property "Reference" "D19"
+			(at 378.9934 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 386.6134 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 384.175 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 385.445 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 402.971 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "9a5d15d7-de48-4a6e-aadb-082ea3020bdb")
+		)
+		(pin "1"
+			(uuid "3d7e913f-d92f-4291-8b7b-ecf1ab018053")
+		)
+		(pin "2"
+			(uuid "299e98be-9c08-40d1-8626-b1dd6c751691")
+		)
+		(pin "3"
+			(uuid "d3018b78-311a-4b74-b25f-e0680c1f68b9")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 466.09 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "059a8ad2-249c-457a-81c9-2ffcd13e10fd")
+		(property "Reference" "D24"
+			(at 462.1784 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 469.7984 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 467.36 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 468.63 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 486.156 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "de3de7f3-93da-40de-8cbe-0fb938f43071")
+		)
+		(pin "1"
+			(uuid "fd51b15f-67d3-40e3-8857-0e66e3129054")
+		)
+		(pin "2"
+			(uuid "f5d5c987-f387-4c8f-b0c2-54261abb8de0")
+		)
+		(pin "3"
+			(uuid "41adaa2a-3cdf-4e3e-b04e-74739b1bfcda")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 316.865 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f246a6-4c06-45fd-897b-0b1e479c1194")
+		(property "Reference" "D40"
+			(at 312.9534 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 320.5734 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 318.135 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 319.405 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 336.931 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c01db5fa-f311-4f71-a977-49eaa64df5a6")
+		)
+		(pin "1"
+			(uuid "62202fa7-3781-4725-b9d9-8cea40b6c867")
+		)
+		(pin "2"
+			(uuid "717a43c3-ab67-4456-8b4f-3de4d6726c75")
+		)
+		(pin "3"
+			(uuid "fbde770f-373c-4d23-b448-0e1cffc862f0")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 518.795 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0acac521-cc1e-45cf-9603-281fa3026562")
+		(property "Reference" "J2"
+			(at 523.24 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 523.24 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 518.795 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 518.795 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 518.795 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2cbdd391-897d-400a-8c45-447fbfc9d03b")
+		)
+		(pin "1"
+			(uuid "309d05d5-0220-45de-97e9-d3e31e4d8140")
+		)
+		(pin "3"
+			(uuid "fc27c992-74cb-44d9-aeb3-adfb05ab6519")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 184.785 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4f7ed4-fede-4dc1-be27-d932b82c9240")
+		(property "Reference" "D7"
+			(at 180.8734 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 188.4934 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 186.055 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 187.325 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.851 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "95e5b337-31c4-401a-9e1e-87263ed79c72")
+		)
+		(pin "1"
+			(uuid "e2d2d27f-f603-4a9a-84b2-d2fc21adf806")
+		)
+		(pin "2"
+			(uuid "e59b2d65-fe17-40e1-9200-e8944ec40269")
+		)
+		(pin "3"
+			(uuid "51aa7849-a8b4-40e9-9c5c-4622ba991230")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 85.725 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "162eec26-92d6-4ace-b98b-16844a9022fe")
+		(property "Reference" "D1"
+			(at 99.06 61.6264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 99.06 64.1664 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 86.995 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 88.265 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 105.791 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5d30d4a3-d3f9-4d80-bc21-9a4f2f87c265")
+		)
+		(pin "4"
+			(uuid "fddb1b9d-62c3-4769-a0df-2a54b6d37ea2")
+		)
+		(pin "1"
+			(uuid "483df26c-1ab0-45da-81d4-7a8aa2c36bca")
+		)
+		(pin "3"
+			(uuid "1dc65423-3e57-47d6-bb6e-a7c22e701657")
+		)
+		(instances
+			(project ""
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 250.825 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a2f2cf0-5231-43f0-b1e7-dcff2a459beb")
+		(property "Reference" "D11"
+			(at 246.9134 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 254.5334 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 252.095 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 253.365 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 270.891 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8de78b5a-4e69-417a-8638-85e8bc685146")
+		)
+		(pin "1"
+			(uuid "17f7043c-e9a8-4e23-befe-653906f77289")
+		)
+		(pin "2"
+			(uuid "fe208ba3-75e7-488a-9c13-dc78e54fcb51")
+		)
+		(pin "3"
+			(uuid "1c60166c-27cb-4bf4-b561-69f540e8dd05")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 432.435 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1efe9852-419f-4302-a324-ead1bca29617")
+		(property "Reference" "D47"
+			(at 428.5234 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 436.1434 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 433.705 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 434.975 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 452.501 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7fa16985-0072-4c1a-bc89-4c81e1182fe0")
+		)
+		(pin "1"
+			(uuid "d3e7a48a-1872-4a39-86b8-e9de3c2e0831")
+		)
+		(pin "2"
+			(uuid "ac38030a-cd1c-42b8-a610-1ccb8e059a75")
+		)
+		(pin "3"
+			(uuid "cdc5f071-6f21-4137-9ba7-f363885b9bdd")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 349.885 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32fb1ab7-0ac7-4a87-9ca8-5176a5f44d63")
+		(property "Reference" "D17"
+			(at 345.9734 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 353.5934 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 351.155 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 352.425 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 369.951 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "76e6c9e7-2d82-4b51-a324-ed1858ae9717")
+		)
+		(pin "1"
+			(uuid "3482edb4-ee4f-413f-9340-cf748143a7c0")
+		)
+		(pin "2"
+			(uuid "84862f54-21fb-4e38-8920-1dce79353e3f")
+		)
+		(pin "3"
+			(uuid "bfe201df-296e-41b6-993c-9311e2840ef3")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 118.745 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39829c3c-67d6-4c36-9d54-fba8ccab6c42")
+		(property "Reference" "D3"
+			(at 114.8334 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 122.4534 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 120.015 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 121.285 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 138.811 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "be063ee7-6b14-44f2-8a4b-e355064e8bd8")
+		)
+		(pin "1"
+			(uuid "d916aad5-1949-4200-88b0-5d4cb02ad352")
+		)
+		(pin "2"
+			(uuid "70914775-4077-43fe-a789-a5e6da6b9c1e")
+		)
+		(pin "3"
+			(uuid "aa70f351-6b9e-48a7-9767-6729c7b9a18a")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 448.945 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dd0a26e-460a-455e-a136-1539649f2464")
+		(property "Reference" "D48"
+			(at 445.0334 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 452.6534 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 450.215 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 451.485 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 469.011 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c7b84199-2355-4a9a-b25e-0d37cf2d3b4e")
+		)
+		(pin "1"
+			(uuid "b9bfe5e9-f608-452f-9f97-afbc76ee09bc")
+		)
+		(pin "2"
+			(uuid "cb3f0635-e767-4c3b-868d-f070b70bf3ff")
+		)
+		(pin "3"
+			(uuid "f69662a1-729f-489f-b207-5834ac24f177")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 234.315 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "412e2a8c-f5aa-4a06-8e9b-1c404288978c")
+		(property "Reference" "D10"
+			(at 230.4034 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 238.0234 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 235.585 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 236.855 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 254.381 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0aa45503-b7cc-43bf-a576-c8e04148aaa7")
+		)
+		(pin "1"
+			(uuid "8d503905-1bd8-438c-a5f8-79806796696c")
+		)
+		(pin "2"
+			(uuid "a7ddfce7-d1f1-48bd-8bad-6ba85dec5f28")
+		)
+		(pin "3"
+			(uuid "be1a6b4f-d9d1-43db-9291-25d04b214ed9")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 49.53 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42040b18-ac86-40d2-b968-7be1dac9a468")
+		(property "Reference" "R1"
+			(at 39.37 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470ohm"
+			(at 37.465 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 49.53 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f83c670c-ad11-4003-9bc1-554c4c061346")
+		)
+		(pin "2"
+			(uuid "f62717eb-50a2-44f9-95ef-2198b8728e32")
+		)
+		(instances
+			(project ""
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 168.275 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42e92d75-7b4c-4ad2-8353-ffb96b58236b")
+		(property "Reference" "D6"
+			(at 164.3634 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 171.9834 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 169.545 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 170.815 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 188.341 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1667e1c7-801f-4398-87a8-088bbaafd16d")
+		)
+		(pin "1"
+			(uuid "72b30027-519f-49d7-b260-87dc357bd180")
+		)
+		(pin "2"
+			(uuid "68ae5fff-f081-482f-8e79-54ac3bf8e2d3")
+		)
+		(pin "3"
+			(uuid "07a7c45a-5204-4754-85bf-6430b80f9a6d")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 85.725 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43c8982d-0967-4631-b3a0-ddbe04d54d78")
+		(property "Reference" "D26"
+			(at 81.8134 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 89.4334 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 86.995 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 88.265 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 105.791 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2a8748da-bcaf-4d1e-b28b-bb801dbfda05")
+		)
+		(pin "1"
+			(uuid "f9062e6f-0184-4ba4-9aaf-9085e28b84b5")
+		)
+		(pin "2"
+			(uuid "b10ef5c0-2582-4eb2-8fb1-0c77415086e4")
+		)
+		(pin "3"
+			(uuid "9d4a2014-1fdd-45b4-8d09-6887ce9e561a")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 316.865 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4547e404-8cf3-465f-8ba9-8af70eb07519")
+		(property "Reference" "D15"
+			(at 312.9534 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 320.5734 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 318.135 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 319.405 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 336.931 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "59b7d01c-af54-484f-824c-6c4df9836f17")
+		)
+		(pin "1"
+			(uuid "6db85f9d-72b2-419b-8d82-88ac75bd4170")
+		)
+		(pin "2"
+			(uuid "d39a2b97-da1a-4388-91a1-712907d1eca7")
+		)
+		(pin "3"
+			(uuid "160b0cb4-a093-4668-afd2-df7d6a1565fd")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 482.6 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "483b8ef6-90cc-4bb6-94a6-d05758b34f13")
+		(property "Reference" "D25"
+			(at 478.6884 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 486.3084 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 483.87 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 485.14 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 502.666 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0b5a49fa-a3f1-47fd-a030-031810c88488")
+		)
+		(pin "1"
+			(uuid "76c42fb6-d99c-4d83-9e65-2eab6607b4d8")
+		)
+		(pin "2"
+			(uuid "8519f258-5e9c-4c24-944f-0d920d795b75")
+		)
+		(pin "3"
+			(uuid "e6f15fa9-21c0-4c61-8d85-62f190faf26c")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 234.315 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a9de058-f919-4baa-b3b9-1b987d40cbe6")
+		(property "Reference" "D35"
+			(at 230.4034 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 238.0234 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 235.585 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 236.855 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 254.381 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "38330d66-4fba-4842-ad1c-c74f09dd9235")
+		)
+		(pin "1"
+			(uuid "309e50af-ba6c-4b9c-8d83-7d21564298e7")
+		)
+		(pin "2"
+			(uuid "fca2ba55-ecc2-4ce9-b964-f7e75fad4d5c")
+		)
+		(pin "3"
+			(uuid "53ef94fe-fb83-4bed-b7a0-4251bd112204")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 399.415 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bda5b58-d6c9-43de-b450-db31ceff7587")
+		(property "Reference" "D45"
+			(at 395.5034 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 403.1234 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 400.685 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 401.955 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 419.481 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7e4ebadd-ce2d-4464-9936-6c12aa26e2c8")
+		)
+		(pin "1"
+			(uuid "731fbc68-e878-4cf1-9b2f-38befb3cdae4")
+		)
+		(pin "2"
+			(uuid "4a246c81-6cdd-43bd-80a9-374e1985be64")
+		)
+		(pin "3"
+			(uuid "68a1aaab-3f8f-4f30-94b4-4175c660620b")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 415.925 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d3ed27d-8b2d-4062-b5ad-879a1e744b53")
+		(property "Reference" "D46"
+			(at 412.0134 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 419.6334 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 417.195 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 418.465 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 435.991 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2862c00a-9ad8-4269-a50f-f0e66f239298")
+		)
+		(pin "1"
+			(uuid "066f1be8-7b2b-41d0-a6e0-5fc4c4efc075")
+		)
+		(pin "2"
+			(uuid "61c97022-7709-4c60-9a22-8f914c9465b1")
+		)
+		(pin "3"
+			(uuid "9beeac27-1cd0-44af-b285-d42ecbfc6de3")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 201.295 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51c1b873-236f-40c8-bd68-4502a010c2b2")
+		(property "Reference" "D8"
+			(at 197.3834 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 205.0034 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 202.565 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 203.835 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 221.361 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1efea30d-aa5e-4fad-b0fb-d1c1fdb27b29")
+		)
+		(pin "1"
+			(uuid "8e027551-7bc0-4b3a-a41b-287af034a97c")
+		)
+		(pin "2"
+			(uuid "0beba2db-7bd9-450a-8e28-8a630f67ebde")
+		)
+		(pin "3"
+			(uuid "384be317-8084-4c33-8439-431fc6704b97")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 449.58 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56593c5e-94c7-474c-9597-5dc36d1e7222")
+		(property "Reference" "D23"
+			(at 445.6684 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 453.2884 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 450.85 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 452.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 469.646 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6998e465-ea45-4409-9ae7-76647d61fd29")
+		)
+		(pin "1"
+			(uuid "b5e1b9c0-fad4-4260-80f1-b43c598b1142")
+		)
+		(pin "2"
+			(uuid "3d375406-89b4-4975-86b7-282a9b7f8a37")
+		)
+		(pin "3"
+			(uuid "4190c4cf-40b7-420e-8cb2-a04dbe2b6015")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 481.965 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5852343d-607d-40ae-a054-62cbd65edcfe")
+		(property "Reference" "D50"
+			(at 478.0534 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 485.6734 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 483.235 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 484.505 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 502.031 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b324a50b-21a3-4439-999b-49ec8ca7639e")
+		)
+		(pin "1"
+			(uuid "ba7fe201-cd3c-4450-ae39-62447e0b4750")
+		)
+		(pin "2"
+			(uuid "5d173430-7a43-4136-a8af-a34391e9efe9")
+		)
+		(pin "3"
+			(uuid "932cc918-ca7b-4b8e-b337-b3d10de686ae")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 168.275 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b2ae7fc-76bb-48c6-972d-ac2b271e86e5")
+		(property "Reference" "D31"
+			(at 164.3634 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 171.9834 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 169.545 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 170.815 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 188.341 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "17df7e57-7ab5-41ad-aaa9-5ffd199b7bdd")
+		)
+		(pin "1"
+			(uuid "890afbb9-498d-4c87-a2eb-0e96a06143d3")
+		)
+		(pin "2"
+			(uuid "063a1885-dc87-4259-baae-ab0ec0aab287")
+		)
+		(pin "3"
+			(uuid "550c927f-05e8-4bda-850b-d019146537a4")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 201.295 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cd56944-835f-4ada-92a9-283460f36fd7")
+		(property "Reference" "D33"
+			(at 197.3834 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 205.0034 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 202.565 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 203.835 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 221.361 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "ac512a2f-2da9-4e86-bf9a-3849b17276b8")
+		)
+		(pin "1"
+			(uuid "629138ed-71a7-4632-ac14-3576b48c4188")
+		)
+		(pin "2"
+			(uuid "1d603ebc-0626-41d2-aaa6-ffbeb5870f47")
+		)
+		(pin "3"
+			(uuid "deaff5b5-1624-4ee6-828b-4b9d19172bb6")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 415.925 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62be17d6-dd4d-4f79-96cb-a8935f4309bd")
+		(property "Reference" "D21"
+			(at 412.0134 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 419.6334 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 417.195 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 418.465 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 435.991 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d0bf562a-7c92-4735-9fb7-b6d6ad0bbcf1")
+		)
+		(pin "1"
+			(uuid "d175eb73-4266-4b49-85ac-132d1ba5c7e1")
+		)
+		(pin "2"
+			(uuid "fbb8800d-e250-444f-9adb-ee37320e00d8")
+		)
+		(pin "3"
+			(uuid "d0244d74-10ec-4e4b-b609-00a5cedad636")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 217.805 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "64ad0e39-6298-4b5c-8e3c-9f7cafd5c6dd")
+		(property "Reference" "D34"
+			(at 213.8934 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 221.5134 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 219.075 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 220.345 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 237.871 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d23bb39c-d72c-4293-8f3b-d49509a8704c")
+		)
+		(pin "1"
+			(uuid "c48fd1fd-73d1-44ab-8ebf-5edcaa77cce2")
+		)
+		(pin "2"
+			(uuid "758f179b-9a46-4da9-b48e-8a3423e8b415")
+		)
+		(pin "3"
+			(uuid "624868ba-c684-4235-b8ca-1d8b9fa5412e")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 62.23 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "702c41cd-e8da-496e-8e3c-706603f8e95d")
+		(property "Reference" "J1"
+			(at 66.675 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 66.675 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "926d9462-376f-4894-b7d9-7a8c51142aed")
+		)
+		(pin "1"
+			(uuid "76d99036-79f3-4cdd-ae79-2c7d99d8171e")
+		)
+		(pin "3"
+			(uuid "e5bc5e5d-7a51-4ab8-8560-4d1a4997e9de")
+		)
+		(instances
+			(project ""
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 217.805 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71abf2d5-5c0b-4db5-83fb-6f98ff19f145")
+		(property "Reference" "D9"
+			(at 213.8934 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 221.5134 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 219.075 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 220.345 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 237.871 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "f36b0282-630f-4acf-8af5-e18ea32a82d1")
+		)
+		(pin "1"
+			(uuid "44095658-0905-485d-970d-e81b5273f41f")
+		)
+		(pin "2"
+			(uuid "805a9460-63de-451a-b127-6263d79881bd")
+		)
+		(pin "3"
+			(uuid "640fa11b-839a-436c-9547-c46f67a9379a")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 250.825 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "766a5add-a031-4c21-b379-aa0b0ef93aa2")
+		(property "Reference" "D36"
+			(at 246.9134 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 254.5334 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 252.095 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 253.365 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 270.891 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "81ca81d5-0695-4e98-b5fd-372dc41bf152")
+		)
+		(pin "1"
+			(uuid "8f9c17bb-96a1-437f-b278-8f81e9ab5b7f")
+		)
+		(pin "2"
+			(uuid "f8f90b6a-0309-4f41-ba01-0f5fbb59be1e")
+		)
+		(pin "3"
+			(uuid "08206caa-9512-42bd-8a58-4c95b905c487")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 151.765 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7828ab89-6c2e-40dc-bd64-7bb342584ad5")
+		(property "Reference" "D5"
+			(at 147.8534 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 155.4734 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 153.035 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 154.305 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 171.831 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6c30684b-2016-4de5-8b1d-e546828213af")
+		)
+		(pin "1"
+			(uuid "b32b6e89-befe-4d03-b890-effe6a800e59")
+		)
+		(pin "2"
+			(uuid "bc352701-692a-4c0b-b272-c92977da9958")
+		)
+		(pin "3"
+			(uuid "18a5fbf5-3caa-424c-a85a-0a8653ae104b")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 102.235 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "788e50ca-14ce-486b-9820-7da2ec9282f1")
+		(property "Reference" "D2"
+			(at 98.3234 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 105.9434 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 103.505 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 104.775 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 122.301 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "64a17a22-b7c7-4b6a-8907-b68c536c7d56")
+		)
+		(pin "1"
+			(uuid "599a7085-86f2-439a-a8ad-da1f1fc4422b")
+		)
+		(pin "2"
+			(uuid "6f5b2a3f-08ba-41f7-b21c-5b26b597eb2e")
+		)
+		(pin "3"
+			(uuid "c789fb5c-cebc-4a7f-9a57-7ecafd89b0ed")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 184.785 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90707648-41f4-43a5-b4fe-d549e9aa9692")
+		(property "Reference" "D32"
+			(at 180.8734 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 188.4934 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 186.055 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 187.325 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 204.851 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "51162e24-4237-4551-aa03-9b239abd8842")
+		)
+		(pin "1"
+			(uuid "74e9c33f-b2af-4a9f-bc0a-28d880555668")
+		)
+		(pin "2"
+			(uuid "37c32bef-5ea4-4c79-aeb3-e3ced001a187")
+		)
+		(pin "3"
+			(uuid "267542b5-fd8a-4bbe-8991-30885f3efbe7")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 135.255 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "939ede54-ec04-40ff-850e-3bc1f30e1ab3")
+		(property "Reference" "D29"
+			(at 131.3434 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 138.9634 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 136.525 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 137.795 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 155.321 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a12091ef-3157-46e3-bd0c-4cc30d0bceab")
+		)
+		(pin "1"
+			(uuid "22d79eb9-c2f8-4f11-985c-fcb8b708d25c")
+		)
+		(pin "2"
+			(uuid "093869cb-8d8e-4d94-8525-089928cd5b17")
+		)
+		(pin "3"
+			(uuid "8c5c3e98-71f9-4bde-a869-7e2842deeeb4")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 333.375 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9bdc7b03-fa24-4fa0-b57b-1e7f812390f0")
+		(property "Reference" "D41"
+			(at 329.4634 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 337.0834 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 334.645 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 335.915 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 353.441 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7c052fa5-51f9-4d03-880d-3dd6038a986f")
+		)
+		(pin "1"
+			(uuid "79f309dc-eebb-41f1-8a04-beebbfa301d4")
+		)
+		(pin "2"
+			(uuid "a65aafa7-fc03-47d2-89c3-c96f8ad46b4c")
+		)
+		(pin "3"
+			(uuid "e40b60ae-5e6f-4444-9a00-24110577df9d")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 366.395 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e0728b9-42b7-4401-8c68-ad2a994416ac")
+		(property "Reference" "D18"
+			(at 362.4834 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 370.1034 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 367.665 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 368.935 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 386.461 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7ffe9b2f-5ac2-485c-8e4e-13406468a566")
+		)
+		(pin "1"
+			(uuid "7f4a358e-dbac-4bea-9b78-5e059839a885")
+		)
+		(pin "2"
+			(uuid "1db51eb7-dc5a-4326-8fa0-0d378e39562a")
+		)
+		(pin "3"
+			(uuid "d33dd80f-c621-49fa-b253-6de7ed089ea1")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 118.745 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f188935-34c6-48f5-9daf-f7e68e1d4004")
+		(property "Reference" "D28"
+			(at 114.8334 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 122.4534 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 120.015 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 121.285 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 138.811 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fc348a93-2b96-4af8-abb2-3c5051ad4a82")
+		)
+		(pin "1"
+			(uuid "140cf065-246e-4609-84f6-a54312751b51")
+		)
+		(pin "2"
+			(uuid "df6ce65d-0c4b-4585-b790-a3ec400a884d")
+		)
+		(pin "3"
+			(uuid "0e4608ce-7906-4654-bce9-196e0b0bb780")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 333.375 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a670652a-33ba-419e-bb21-d6595672ac01")
+		(property "Reference" "D16"
+			(at 329.4634 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 337.0834 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 334.645 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 335.915 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 353.441 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "17ba02d7-76ee-4d56-9060-85001428ea8a")
+		)
+		(pin "1"
+			(uuid "ed5067b6-a588-422e-b7a4-f9807e027a6b")
+		)
+		(pin "2"
+			(uuid "3132be6e-1b56-4dbf-a0c5-aa6707fd3a43")
+		)
+		(pin "3"
+			(uuid "b659fe95-f07f-4386-8584-fab2fff5df7c")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 267.335 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aea77f8d-df0c-4356-8b8c-c733bc378a31")
+		(property "Reference" "D12"
+			(at 263.4234 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 271.0434 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 268.605 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 269.875 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 287.401 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "50e96021-1375-4b61-b304-b81dc4ec4da7")
+		)
+		(pin "1"
+			(uuid "d286b4c4-d421-4b56-bbb5-42e5e4d3718d")
+		)
+		(pin "2"
+			(uuid "11384bb3-2100-4436-b1d1-a0a902c75fec")
+		)
+		(pin "3"
+			(uuid "0e78e26f-6f6f-444b-94b5-81b58f8e4e90")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 135.255 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2170dee-931c-42d5-96b4-e34db4daedd3")
+		(property "Reference" "D4"
+			(at 131.3434 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 138.9634 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 136.525 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 137.795 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 155.321 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7c85e0ef-f826-4b26-b282-7b3bf642f9a6")
+		)
+		(pin "1"
+			(uuid "ef5c1b31-c5e1-4849-a7e0-57be33c8c99c")
+		)
+		(pin "2"
+			(uuid "f852d650-9f2f-408f-8197-38bbfc0ec9fb")
+		)
+		(pin "3"
+			(uuid "31ed2870-c6a2-4167-a9d7-f90cbdb0090c")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 151.765 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3c84e97-eb65-4e0c-8c53-18f3ddf28308")
+		(property "Reference" "D30"
+			(at 147.8534 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 155.4734 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 153.035 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 154.305 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 171.831 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "00fce70d-632b-4245-87d1-4cbaaaf02524")
+		)
+		(pin "1"
+			(uuid "3473ebb8-acf4-4781-9445-d854e7465b9b")
+		)
+		(pin "2"
+			(uuid "76240bf8-75c8-4462-a2fb-b5a3bf6c6213")
+		)
+		(pin "3"
+			(uuid "28def982-f903-4055-9090-b2cf2dab2096")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 300.355 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4aff026-7e9d-4d1f-a8b0-1cafeebde038")
+		(property "Reference" "D39"
+			(at 296.4434 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 304.0634 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 301.625 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 302.895 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 320.421 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "72a67fa5-1a2b-48fa-897c-ee874f5b1cf7")
+		)
+		(pin "1"
+			(uuid "7affd5f4-af97-426b-9efc-652027c9623c")
+		)
+		(pin "2"
+			(uuid "0692b05f-b2f0-44c7-9f0b-a4a39fc38c6d")
+		)
+		(pin "3"
+			(uuid "e316901f-af88-4633-bc62-834460212692")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 283.845 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9f99dff-894c-480a-b0bc-bf6d2d6f467b")
+		(property "Reference" "D38"
+			(at 279.9334 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 287.5534 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 285.115 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 286.385 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 303.911 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "60c13150-f312-4063-a448-76ee169f1a16")
+		)
+		(pin "1"
+			(uuid "e1d11735-3802-40cf-a550-2b58bad26c8e")
+		)
+		(pin "2"
+			(uuid "39dab6b1-59ee-4628-b7a8-c16fdf9430b3")
+		)
+		(pin "3"
+			(uuid "ad242c49-d852-44c1-9d2d-c67615323c19")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 433.07 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5b80cd5-c9e7-48a7-bd9c-e6a637b14748")
+		(property "Reference" "D22"
+			(at 429.1584 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 436.7784 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 434.34 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 435.61 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 453.136 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "10b48aaa-854c-4984-a584-f1608db5d27e")
+		)
+		(pin "1"
+			(uuid "16a6f0f9-6976-4693-83d8-9a06d8078b30")
+		)
+		(pin "2"
+			(uuid "524cadc6-a9e2-4299-805f-a447bb82b69e")
+		)
+		(pin "3"
+			(uuid "6c22e247-ed19-45d0-a3b9-93b4ad58c9ac")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 382.905 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca05ae3e-a125-4040-9eaf-f0fec4e0164d")
+		(property "Reference" "D44"
+			(at 378.9934 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 386.6134 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 384.175 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 385.445 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 402.971 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "069c680b-af61-4ec8-8dde-916a49cfe4ff")
+		)
+		(pin "1"
+			(uuid "6273834e-4e05-4dbf-aca9-ab3a866ed981")
+		)
+		(pin "2"
+			(uuid "0fef72e5-3e24-453f-bb7e-2d3b068959a3")
+		)
+		(pin "3"
+			(uuid "4e8d40f6-5374-4e50-abcf-737ad58ed3c4")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 283.845 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cda1b34e-2d52-4243-a93c-2f637120ef13")
+		(property "Reference" "D13"
+			(at 279.9334 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 287.5534 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 285.115 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 286.385 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 303.911 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "71385c93-887d-4203-a467-3d548d2e849a")
+		)
+		(pin "1"
+			(uuid "02f0e7b9-2371-412f-a1e2-f8084d0808ba")
+		)
+		(pin "2"
+			(uuid "7d0d89bd-4270-4f66-b97b-22fcc6137ef7")
+		)
+		(pin "3"
+			(uuid "0e16791c-8eb9-4fc4-94b5-54d98159a6bf")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 102.235 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df0f6aab-56bf-46a8-a825-26a5d494fde1")
+		(property "Reference" "D27"
+			(at 98.3234 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 105.9434 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 103.505 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 104.775 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 122.301 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0e304dc5-c77b-4196-9aa8-b3c29335cee4")
+		)
+		(pin "1"
+			(uuid "4b88f0f2-67d1-44e8-ba69-93dacf25d497")
+		)
+		(pin "2"
+			(uuid "1b07592b-176b-4058-baae-d9723b42d3e7")
+		)
+		(pin "3"
+			(uuid "73fd3fab-ce30-484c-a05a-87399348d698")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 465.455 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e2ea1eb5-21c4-4dfc-b1e1-6b46214b116d")
+		(property "Reference" "D49"
+			(at 461.5434 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 469.1634 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 466.725 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 467.995 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 485.521 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b54d49cd-21af-4202-9a55-bd9eb6035823")
+		)
+		(pin "1"
+			(uuid "41d4cc31-1e57-476d-9e6f-863b866b1ce1")
+		)
+		(pin "2"
+			(uuid "4f62e197-d139-4277-9b34-4662acef3d7a")
+		)
+		(pin "3"
+			(uuid "e6dd9ae1-c197-45f7-9ce7-5290deb2f2a9")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 399.415 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb5dd67d-f082-4421-947d-ad0429034c5d")
+		(property "Reference" "D20"
+			(at 395.5034 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 403.1234 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 400.685 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 401.955 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 419.481 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3ac537e1-97e7-47d9-8fb7-7a6cd89e1748")
+		)
+		(pin "1"
+			(uuid "c3ba9c97-d383-4f29-a71b-49525b926d9e")
+		)
+		(pin "2"
+			(uuid "0519b422-6ea2-46c0-acab-2db3aa7e2a95")
+		)
+		(pin "3"
+			(uuid "08c7cd3a-de2b-4dbc-97d9-7d9baaf66d0a")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 366.395 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef6acd47-ca5a-4358-8b06-6a99f9fcca7e")
+		(property "Reference" "D43"
+			(at 362.4834 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 370.1034 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 367.665 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 368.935 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 386.461 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "028215e3-4acb-45b4-aadd-e20f09b2b521")
+		)
+		(pin "1"
+			(uuid "887a2788-21ac-4691-856e-316d6bbd85e8")
+		)
+		(pin "2"
+			(uuid "a3c19a4d-80c7-433f-9cfd-d3c48f2f39b1")
+		)
+		(pin "3"
+			(uuid "92f001e1-8cd8-4406-9649-2664cd750d89")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 349.885 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2b8e2e3-0d4e-44e9-aaca-7aff37bc1024")
+		(property "Reference" "D42"
+			(at 345.9734 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 353.5934 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 351.155 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 352.425 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 369.951 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b5bc54e8-88f8-4d7f-a82f-118d96e7887b")
+		)
+		(pin "1"
+			(uuid "20a47200-dede-478d-8e96-9542123cb11e")
+		)
+		(pin "2"
+			(uuid "b2144157-529b-4812-8322-1fa91afbf7a3")
+		)
+		(pin "3"
+			(uuid "baeb1204-f945-4df0-8131-315259cfb448")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 267.335 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9a90e07-1a6c-4b76-85de-d3e1e8c97941")
+		(property "Reference" "D37"
+			(at 263.4234 89.3318 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 271.0434 84.3788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 268.605 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 269.875 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 287.401 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6cc34626-a9ae-4eef-86b2-0c0ecf0acb6f")
+		)
+		(pin "1"
+			(uuid "e055abd9-6e72-495e-8570-bb3a364bb11d")
+		)
+		(pin "2"
+			(uuid "b8629659-2fb0-4a58-8a11-b8675b452229")
+		)
+		(pin "3"
+			(uuid "6d8aadb7-c51c-4a58-816a-5374003ff7cd")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "_EC10-Test-Board-symbols:SK6812-EC10")
+		(at 300.355 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa60ffc2-22ce-4327-8941-edd62b9588b9")
+		(property "Reference" "D14"
+			(at 296.4434 59.4868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812-EC10"
+			(at 304.0634 54.5338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "_EC10-Test-Board-Footprints:SK6805-EC10"
+			(at 301.625 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf"
+			(at 302.895 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 320.421 80.391 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2db43f9a-a5d0-432f-8bce-2ac84fc67146")
+		)
+		(pin "1"
+			(uuid "aa1918fe-4d0e-48f2-9f63-ed020e0a9437")
+		)
+		(pin "2"
+			(uuid "729e5fa9-1951-476c-9425-ce553e97c3ba")
+		)
+		(pin "3"
+			(uuid "6c93460f-8642-4ad5-99ca-4d76517851ac")
+		)
+		(instances
+			(project "EC10-Test-PCB"
+				(path "/76387a4d-e1af-41ef-808a-a1b34bc8c3fb"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

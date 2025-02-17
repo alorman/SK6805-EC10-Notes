@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "_EC10-Test-Board-Footprints")(type "KiCad")(uri "${KIPRJMOD}/_EC10-custom-components/_EC10-Test-Board-Footprints.pretty")(options "")(descr ""))
+)
