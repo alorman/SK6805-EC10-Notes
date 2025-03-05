@@ -43,12 +43,12 @@ We can see a linear and similar progression for R, G and B. Correspondingly, we 
 The idle current can also be charachterized from the first few data points.
 
 ## Power Formula
+ 
 
-Power **per LED** in mA:  
-
-### ((R+B+G)*0.013838)+0.4791
+### I<sub>consumed</sub>=((R+B+G)*0.013838)+0.4791
 
 Where:  
+`Iconsumed` = Current consumed **per LED** in mA  
 `(R+B+G)` = Values for R, G and B in 0-255  
 `0.4791` = Idle current draw in mA per module  
 
