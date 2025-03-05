@@ -8,6 +8,14 @@ Notes on the __smallest__ availible addressable LED to date!
 
 Above, you can see the EC10 modules next to a 3535 LED. These guys are SMOL.
 
+## Purchasing
+Adadfruit sells thes units as [Part Number 5849](https://www.adafruit.com/product/5849).
+They can also be purchased on AliExpress in volume.  
+Buy extras, you will lose some of these, since breathing on them the wrong way blows them away. 
+
+## Datasheet 
+[Datasheet from Adafruit](https://cdn-shop.adafruit.com/product-files/5849/SK6805-EC10-000_REV.01_EN.pdf)
+
 ## KiCad Files
 I made footprint and symbol files availible for the EC10s.  
 They can be found in `\SK6805-EC10-kicad-libraries`  
