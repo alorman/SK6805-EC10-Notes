@@ -4,7 +4,7 @@ Notes on the __smallest__ availible addressable LED to date!
 
 **Author's note:** While you will definitely need a loupe or microscope to even see what you're doing, these can be a bit easier to solder than the 3535 and other large sizes. If you choose a low-temp solder and gently use hot air, you can get each LED to snap into place onto the solder pads. 
 
-![](img/1969.jpg)
+![](img/1696-edit.jpg)
 
 Above, you can see the EC10 modules next to a 3535 LED. These guys are SMOL.
 
@@ -48,7 +48,7 @@ Power **per LED** in mA:
 
 ### ((R+B+G)*0.013838)+0.4791
 
-Where:
+Where:  
 `(R+B+G)` = Values for R, G and B in 0-255  
 `0.4791` = Idle current draw in mA per module  
 
